@@ -219,11 +219,11 @@ def Main():
 
 # 검색 키워드
 keywords_d = {'helltaker': 'helltaker',
-              'default'  : None}
+              'default'  : ''}
 
 # 폴더 이름({exdir}\{keywords_string})
 keywords_string = {'helltaker': '헬테이커',
-                   'default'  : None}
+                   'default'  : ''}
 
 gAuth = ('ID', 'API Key')
 HOMEFULLPATH = os.getenv('HOMEDRIVE') + os.getenv('HOMEPATH')
