@@ -75,10 +75,10 @@ def setDataStr(dataStr: list, page: int):
 ```
 keywords_value에는 위에서 설정했었던 keyword_d의 value 값이 들어가게 됩니다. 혹은 dataStr.append() 메서드를 수정해서 자신이 원하는 검색어로 수행할 수도 있습니다. 단, Danbooru에서는 Gelbooru와 달리 키워드 갯수 제한이 있다는 점에 주의해야 합니다(**Basic 유저는 2개, Gold 유저는 6개, Platinum 유저는 12개**).
 
-#### getSizeSTR(downloadPath: str) 메서드
+#### 3.3.4. getSizeSTR(downloadPath: str) 메서드
 파일 사이즈를 읽어서 킬로바이트 혹은 메가바이트 단위로 출력해줍니다.
 
-#### printProgress(iteration, total, prefix='', suffix='', decimals=1, barLength=100) 메서드
+#### 3.3.5. printProgress(iteration, total, prefix='', suffix='', decimals=1, barLength=100) 메서드
 파일을 다운로드할 때 진행상황을 progress bar 형태로 출력해줍니다.
 
 ### 3.4. 기타
