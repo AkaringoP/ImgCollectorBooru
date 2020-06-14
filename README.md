@@ -5,8 +5,8 @@
 본 프로그램은 Danbooru API를 이용한 프로그램으로서 실행하기 위해서는 ID와 API Key 정보가 필요합니다.
 회원가입 - My Account - API Key / View
 
-확인한 정보를 본 code의 gAuth 변수에 입력해주면 준비 완료
-또한 Python 3버전 이상에, requests 패키지가 설치되어 있어야 합니다(나머지는 기본이었나..?)
+확인한 정보를 본 code의 gAuth 변수에 입력해주면 준비 완료<br>
+추가로 Python 3버전 이상에, requests 패키지가 설치되어 있어야 합니다(나머지는 기본이었나..?)
 ```
 using cmd.exe(needs python bin path)
 
